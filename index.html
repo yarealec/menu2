@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú con Botones</title>
+    <style>
+        /* Estilos para los botones */
+        .boton {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 5px; /* Añadido un pequeño margen */
+        }
+        /* Estilo para cada enlace */
+        .enlace {
+            display: flex; /* Hace que los enlaces estén en una fila */
+            justify-content: center; /* Centra los enlaces horizontalmente */
+        }
+        /* Estilo para el contenedor del menú */
+        .menu {
+            margin-top: 20px;
+            text-align: center;
+        }
+        /* Estilo para el contenedor de cada enlace */
+        .enlace-container {
+            padding: 20px; /* Añadido un espacio alrededor de los enlaces */
+            border-radius: 10px; /* Bordes redondeados */
+            margin-bottom: 10px; /* Espacio entre los contenedores de enlaces */
+        }
+        /* Estilos para las secciones */
+        .seccion-enlace1 {
+            background-color: #ffecd9; /* Rojo */
+        }
+        .seccion-enlace2 {
+            background-color: #fdddca; /* Verde */
+        }
+        /* Estilo para el título del menú */
+        .menu-title {
+            font-family: 'Bradley Hand', cursive; /* Fuente Bradley Hand */
+            font-size: 24px; /* Tamaño del texto */
+            margin-bottom: 20px; /* Espacio debajo del título */
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <!-- Título del menú -->
+        <h1 class="menu-title">Menú</h1>
+		<img src="menu\Captura de pantalla 2024-05-09 200239.png" alt= "imagen1"/>
+
+        <!-- Contenedor para el Enlace 1 con color de fondo rojo -->
+        <div class="enlace-container seccion-enlace1">
+            <h2>Cuento 1</h2>
+            <p>Los cuentos de hadas son relatos mágicos llenos de criaturas fantásticas y aventuras extraordinarias que exploran temas universales como el bien contra el mal y el triunfo del amor y la valentía....</p>
+            <!-- Enlace 1 -->
+            <div class="enlace">
+                <a href="https://yarealec.github.io/cuento/" class="boton">Enlace </a>
+            </div>
+        </div>
+
+        <!-- Contenedor para el Enlace 2 con color de fondo verde -->
+        <div class="enlace-container seccion-enlace2">
+            <h2>Cuento 2</h2>
+            <p>Riquete el del Copete es un cuento de hadas en el que una princesa fea intercambia su inteligencia por belleza con un príncipe encantado llamado Riquete. A través de ingeniosos actos, la princesa demuestra que la inteligencia es más valiosa que la belleza física, y ambos viven felices para siempre....</p>
+            <!-- Enlace 2 -->
+            <div class="enlace">
+                <a href="https://yarealec.github.io/cuento2/" class="boton"> Enlace </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
